@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_real_reality_of_minecraft_:blocks/tinore",
+    "up": "the_real_reality_of_minecraft_:blocks/tinore",
+    "north": "the_real_reality_of_minecraft_:blocks/tinore",
+    "east": "the_real_reality_of_minecraft_:blocks/tinore",
+    "south": "the_real_reality_of_minecraft_:blocks/tinore",
+    "west": "the_real_reality_of_minecraft_:blocks/tinore",
+    "particle": "the_real_reality_of_minecraft_:blocks/tinore"
+  }
+}

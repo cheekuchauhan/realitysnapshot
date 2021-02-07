@@ -1,0 +1,12 @@
+{
+  "group": "the_real_reality_of_minecraft_",
+  "type": "minecraft:campfire_cooking",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "minecraft:potion"
+  },
+  "result": {
+    "item": "the_real_reality_of_minecraft_:clean_water"
+  }
+}

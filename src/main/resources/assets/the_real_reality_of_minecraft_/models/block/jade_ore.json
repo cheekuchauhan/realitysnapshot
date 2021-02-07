@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_real_reality_of_minecraft_:blocks/jadeore",
+    "up": "the_real_reality_of_minecraft_:blocks/jadeore",
+    "north": "the_real_reality_of_minecraft_:blocks/jadeore",
+    "east": "the_real_reality_of_minecraft_:blocks/jadeore",
+    "south": "the_real_reality_of_minecraft_:blocks/jadeore",
+    "west": "the_real_reality_of_minecraft_:blocks/jadeore",
+    "particle": "the_real_reality_of_minecraft_:blocks/jadeore"
+  }
+}

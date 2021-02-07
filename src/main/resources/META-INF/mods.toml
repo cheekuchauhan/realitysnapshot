@@ -1,0 +1,21 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+
+[[mods]]
+modId="the_real_reality_of_minecraft_"
+version="1.0.0"
+displayName="The Real Reality Of Minecraft 1.15.2"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
+authors="nirdesh, MCreator"
+
+[[dependencies.the_real_reality_of_minecraft_]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

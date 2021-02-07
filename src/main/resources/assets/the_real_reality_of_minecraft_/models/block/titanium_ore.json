@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_real_reality_of_minecraft_:blocks/titaniumore",
+    "up": "the_real_reality_of_minecraft_:blocks/titaniumore",
+    "north": "the_real_reality_of_minecraft_:blocks/titaniumore",
+    "east": "the_real_reality_of_minecraft_:blocks/titaniumore",
+    "south": "the_real_reality_of_minecraft_:blocks/titaniumore",
+    "west": "the_real_reality_of_minecraft_:blocks/titaniumore",
+    "particle": "the_real_reality_of_minecraft_:blocks/titaniumore"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_real_reality_of_minecraft_:blocks/lithiumore",
+    "up": "the_real_reality_of_minecraft_:blocks/lithiumore",
+    "north": "the_real_reality_of_minecraft_:blocks/lithiumore",
+    "east": "the_real_reality_of_minecraft_:blocks/lithiumore",
+    "south": "the_real_reality_of_minecraft_:blocks/lithiumore",
+    "west": "the_real_reality_of_minecraft_:blocks/lithiumore",
+    "particle": "the_real_reality_of_minecraft_:blocks/lithiumore"
+  }
+}

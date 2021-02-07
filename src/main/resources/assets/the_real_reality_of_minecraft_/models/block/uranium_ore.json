@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_real_reality_of_minecraft_:blocks/uraniumore",
+    "up": "the_real_reality_of_minecraft_:blocks/uraniumore",
+    "north": "the_real_reality_of_minecraft_:blocks/uraniumore",
+    "east": "the_real_reality_of_minecraft_:blocks/uraniumore",
+    "south": "the_real_reality_of_minecraft_:blocks/uraniumore",
+    "west": "the_real_reality_of_minecraft_:blocks/uraniumore",
+    "particle": "the_real_reality_of_minecraft_:blocks/uraniumore"
+  }
+}

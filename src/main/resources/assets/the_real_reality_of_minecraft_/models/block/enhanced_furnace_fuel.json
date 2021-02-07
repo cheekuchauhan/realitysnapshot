@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_real_reality_of_minecraft_:blocks/fuelblock",
+    "up": "the_real_reality_of_minecraft_:blocks/fuelblock",
+    "north": "the_real_reality_of_minecraft_:blocks/fuelblock",
+    "east": "the_real_reality_of_minecraft_:blocks/fuelblock",
+    "south": "the_real_reality_of_minecraft_:blocks/fuelblock",
+    "west": "the_real_reality_of_minecraft_:blocks/fuelblock",
+    "particle": "the_real_reality_of_minecraft_:blocks/fuelblock"
+  }
+}

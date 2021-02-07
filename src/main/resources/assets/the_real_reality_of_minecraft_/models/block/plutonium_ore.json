@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_real_reality_of_minecraft_:blocks/plutoniumore",
+    "up": "the_real_reality_of_minecraft_:blocks/plutoniumore",
+    "north": "the_real_reality_of_minecraft_:blocks/plutoniumore",
+    "east": "the_real_reality_of_minecraft_:blocks/plutoniumore",
+    "south": "the_real_reality_of_minecraft_:blocks/plutoniumore",
+    "west": "the_real_reality_of_minecraft_:blocks/plutoniumore",
+    "particle": "the_real_reality_of_minecraft_:blocks/plutoniumore"
+  }
+}

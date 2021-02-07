@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_real_reality_of_minecraft_:blocks/sapphireore",
+    "up": "the_real_reality_of_minecraft_:blocks/sapphireore",
+    "north": "the_real_reality_of_minecraft_:blocks/sapphireore",
+    "east": "the_real_reality_of_minecraft_:blocks/sapphireore",
+    "south": "the_real_reality_of_minecraft_:blocks/sapphireore",
+    "west": "the_real_reality_of_minecraft_:blocks/sapphireore",
+    "particle": "the_real_reality_of_minecraft_:blocks/sapphireore"
+  }
+}

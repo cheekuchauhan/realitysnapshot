@@ -1,0 +1,9 @@
+{
+  "group": "the_real_reality_of_minecraft_",
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "the_real_reality_of_minecraft_:amethyst_ore"
+  },
+  "result": "the_real_reality_of_minecraft_:amethyst"
+}

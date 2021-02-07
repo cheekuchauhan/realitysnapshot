@@ -1,0 +1,903 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "WaterLevels",
+      "type": "overlay",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "water_levels"
+    },
+    {
+      "name": "WaterLevelsDisplayOverlayIngame",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "water_levels_display_overlay_ingame",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CopperOre",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_ore"
+    },
+    {
+      "name": "TitaniumOre",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titanium_ore"
+    },
+    {
+      "name": "TinOre",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tin_ore"
+    },
+    {
+      "name": "LeadOre",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lead_ore"
+    },
+    {
+      "name": "LithiumOre",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lithium_ore"
+    },
+    {
+      "name": "SilverOre",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silver_ore"
+    },
+    {
+      "name": "MagnesiumOre",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magnesium_ore"
+    },
+    {
+      "name": "Beryllium",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beryllium"
+    },
+    {
+      "name": "AluminumOre",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aluminum_ore"
+    },
+    {
+      "name": "CobaltOre",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_ore"
+    },
+    {
+      "name": "ZincOre",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zinc_ore"
+    },
+    {
+      "name": "UraniumOre",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uranium_ore"
+    },
+    {
+      "name": "PlutoniumOre",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plutonium_ore"
+    },
+    {
+      "name": "TungstenOre",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tungsten_ore"
+    },
+    {
+      "name": "JadeOre",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jade_ore"
+    },
+    {
+      "name": "AmethystOre",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_ore"
+    },
+    {
+      "name": "SapphireOre",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphire_ore"
+    },
+    {
+      "name": "TopazOre",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "topaz_ore"
+    },
+    {
+      "name": "RubyOre",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_ore"
+    },
+    {
+      "name": "PlatinumOre",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platinum_ore"
+    },
+    {
+      "name": "AlloyFurnace",
+      "type": "gui",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alloy_furnace"
+    },
+    {
+      "name": "AlloyFurnaceOn",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alloy_furnace_on"
+    },
+    {
+      "name": "Copper",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper"
+    },
+    {
+      "name": "EnhancedFurnaceFuel",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enhanced_furnace_fuel"
+    },
+    {
+      "name": "EnhancedFurnaceFuelIndicator",
+      "type": "fuel",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enhanced_furnace_fuel_indicator"
+    },
+    {
+      "name": "AlloyFurnaceOnUpdateTick",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alloy_furnace_on_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AlloyFurnaceOnClientDisplayRandomTick",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alloy_furnace_on_client_display_random_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EnhancedFurnaceFuelCraft",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enhanced_furnace_fuel_craft"
+    },
+    {
+      "name": "Jade",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jade"
+    },
+    {
+      "name": "JadeCut",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jade_cut"
+    },
+    {
+      "name": "Amethyst",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst"
+    },
+    {
+      "name": "AmethystCraft",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_craft"
+    },
+    {
+      "name": "Sapphire",
+      "type": "item",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphire"
+    },
+    {
+      "name": "SapphireCraft",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphire_craft"
+    },
+    {
+      "name": "Topaz",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "topaz"
+    },
+    {
+      "name": "TopazCraft",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "topaz_craft"
+    },
+    {
+      "name": "Ruby",
+      "type": "item",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby"
+    },
+    {
+      "name": "RubyCraft",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_craft"
+    },
+    {
+      "name": "TitaniumChunks",
+      "type": "item",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titanium_chunks"
+    },
+    {
+      "name": "TinIngots",
+      "type": "item",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tin_ingots"
+    },
+    {
+      "name": "LeadIngot",
+      "type": "item",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lead_ingot"
+    },
+    {
+      "name": "LithiumChunk",
+      "type": "item",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lithium_chunk"
+    },
+    {
+      "name": "SilverIngot",
+      "type": "item",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silver_ingot"
+    },
+    {
+      "name": "MagnesiumIngot",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magnesium_ingot"
+    },
+    {
+      "name": "BerylliumIngot",
+      "type": "item",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beryllium_ingot"
+    },
+    {
+      "name": "AluminumIngot",
+      "type": "item",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aluminum_ingot"
+    },
+    {
+      "name": "CobaltIngot",
+      "type": "item",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_ingot"
+    },
+    {
+      "name": "ZincChunks",
+      "type": "item",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zinc_chunks"
+    },
+    {
+      "name": "TitaniumIngots",
+      "type": "item",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titanium_ingots"
+    },
+    {
+      "name": "ZincNuggets",
+      "type": "item",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zinc_nuggets"
+    },
+    {
+      "name": "UraniumIngot",
+      "type": "item",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uranium_ingot"
+    },
+    {
+      "name": "PlutoniumCore",
+      "type": "item",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plutonium_core"
+    },
+    {
+      "name": "Tungsten",
+      "type": "item",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tungsten"
+    },
+    {
+      "name": "ZincIngot",
+      "type": "item",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zinc_ingot"
+    },
+    {
+      "name": "TitaniumChunkCut",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titanium_chunk_cut"
+    },
+    {
+      "name": "LithiumIngot",
+      "type": "item",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lithium_ingot"
+    },
+    {
+      "name": "LithiumChunkCut",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lithium_chunk_cut"
+    },
+    {
+      "name": "ZincNuggetCut",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zinc_nugget_cut"
+    },
+    {
+      "name": "ZincIngotCraft",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zinc_ingot_craft"
+    },
+    {
+      "name": "WaterJump",
+      "type": "procedure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "water_jump",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WaterRun",
+      "type": "procedure",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "water_run",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WaterMining",
+      "type": "procedure",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "water_mining",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WaterItemConsume",
+      "type": "procedure",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "water_item_consume",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WaterDeath",
+      "type": "procedure",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "water_death",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WaterOpenWorld",
+      "type": "procedure",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "water_open_world",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CleanWaterFoodEaten",
+      "type": "procedure",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "clean_water_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CleanWater",
+      "type": "food",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "clean_water"
+    },
+    {
+      "name": "MakingCleanWater",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "making_clean_water"
+    },
+    {
+      "name": "Net",
+      "type": "item",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "net"
+    },
+    {
+      "name": "Netcraft",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netcraft"
+    },
+    {
+      "name": "PlayerRunsWater",
+      "type": "procedure",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "player_runs_water",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WaterWalkPlayer",
+      "type": "procedure",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "water_walk_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Alloyfurnacelogiccheck",
+      "type": "procedure",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alloyfurnacelogiccheck",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "watercollectoractiavted",
+      "type": "logic",
+      "scope": "world",
+      "value": "false"
+    },
+    {
+      "name": "watercollectornumber",
+      "type": "number",
+      "scope": "world",
+      "value": "2000.0"
+    },
+    {
+      "name": "watercollectorlogic",
+      "type": "logic",
+      "scope": "world",
+      "value": "false"
+    },
+    {
+      "name": "alloyfurnacelogic",
+      "type": "logic",
+      "scope": "world",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.the_real_reality_of_minecraft_.alloy_furnace_on": "Alloy Furnace",
+      "block.the_real_reality_of_minecraft_.uranium_ore": "Uranium Ore",
+      "item.the_real_reality_of_minecraft_.jade": "Jade",
+      "item.the_real_reality_of_minecraft_.sapphire": "Sapphire",
+      "item.the_real_reality_of_minecraft_.clean_water": "Clean Water",
+      "item.the_real_reality_of_minecraft_.copper": "Copper",
+      "item.the_real_reality_of_minecraft_.cobalt_ingot": "Cobalt Ingot",
+      "item.the_real_reality_of_minecraft_.magnesium_ingot": "Magnesium Ingot",
+      "item.the_real_reality_of_minecraft_.uranium_ingot": "Uranium Ingot",
+      "item.the_real_reality_of_minecraft_.tungsten": "Tungsten Ingot",
+      "item.the_real_reality_of_minecraft_.titanium_ingots": "Titanium Ingot",
+      "item.the_real_reality_of_minecraft_.amethyst": "Amethyst",
+      "item.the_real_reality_of_minecraft_.aluminum_ingot": "Aluminum Ingot",
+      "block.the_real_reality_of_minecraft_.sapphire_ore": "Sapphire Ore",
+      "item.the_real_reality_of_minecraft_.net": "Net",
+      "item.the_real_reality_of_minecraft_.topaz": "Topaz",
+      "block.the_real_reality_of_minecraft_.tungsten_ore": "Tungsten Ore",
+      "block.the_real_reality_of_minecraft_.beryllium": "Beryllium",
+      "block.the_real_reality_of_minecraft_.amethyst_ore": "Amethyst Ore",
+      "block.the_real_reality_of_minecraft_.platinum_ore": "Platinum Ore",
+      "item.the_real_reality_of_minecraft_.zinc_chunks": "Zinc Chunk",
+      "item.the_real_reality_of_minecraft_.lithium_ingot": "Lithium Ingot",
+      "block.the_real_reality_of_minecraft_.magnesium_ore": "Magnesium Ore",
+      "block.the_real_reality_of_minecraft_.lithium_ore": "Lithium Ore",
+      "item.the_real_reality_of_minecraft_.titanium_chunks": "Titanium Chunks",
+      "item.the_real_reality_of_minecraft_.lithium_chunk": "Lithium Chunk",
+      "item.the_real_reality_of_minecraft_.ruby": "Ruby",
+      "block.the_real_reality_of_minecraft_.silver_ore": "Silver Ore",
+      "item.the_real_reality_of_minecraft_.plutonium_core": "Plutonium Core",
+      "block.the_real_reality_of_minecraft_.zinc_ore": "Zinc Ore",
+      "block.the_real_reality_of_minecraft_.titanium_ore": "Titanium Ore",
+      "block.the_real_reality_of_minecraft_.cobalt_ore": "Cobalt Ore",
+      "block.the_real_reality_of_minecraft_.lead_ore": "Lead Ore",
+      "item.the_real_reality_of_minecraft_.zinc_ingot": "Zinc Ingot",
+      "block.the_real_reality_of_minecraft_.copper_ore": "Copper Ore",
+      "block.the_real_reality_of_minecraft_.tin_ore": "Tin Ore",
+      "block.the_real_reality_of_minecraft_.enhanced_furnace_fuel": "Enhanced Furnace Fuel",
+      "item.the_real_reality_of_minecraft_.tin_ingots": "Tin Ingot",
+      "item.the_real_reality_of_minecraft_.beryllium_ingot": "Beryllium Ingot",
+      "block.the_real_reality_of_minecraft_.ruby_ore": "Ruby Ore",
+      "block.the_real_reality_of_minecraft_.plutonium_ore": "Plutonium Ore",
+      "item.the_real_reality_of_minecraft_.zinc_nuggets": "Zinc Nugget",
+      "block.the_real_reality_of_minecraft_.topaz_ore": "Topaz Ore",
+      "block.the_real_reality_of_minecraft_.jade_ore": "Jade Ore",
+      "item.the_real_reality_of_minecraft_.silver_ingot": "Silver Ingot",
+      "item.the_real_reality_of_minecraft_.lead_ingot": "Lead Ingot",
+      "block.the_real_reality_of_minecraft_.aluminum_ore": "Aluminum Ore"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "the_real_reality_of_minecraft_",
+    "modName": "The Real Reality Of Minecraft 1.15.2",
+    "version": "1.0.0",
+    "author": "nirdesh, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "modElementsPackage": "net.mcreator.therealrealityofminecraft",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100103117
+}

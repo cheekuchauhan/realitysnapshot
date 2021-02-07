@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_real_reality_of_minecraft_:blocks/rubyore",
+    "up": "the_real_reality_of_minecraft_:blocks/rubyore",
+    "north": "the_real_reality_of_minecraft_:blocks/rubyore",
+    "east": "the_real_reality_of_minecraft_:blocks/rubyore",
+    "south": "the_real_reality_of_minecraft_:blocks/rubyore",
+    "west": "the_real_reality_of_minecraft_:blocks/rubyore",
+    "particle": "the_real_reality_of_minecraft_:blocks/rubyore"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_real_reality_of_minecraft_:blocks/topazore",
+    "up": "the_real_reality_of_minecraft_:blocks/topazore",
+    "north": "the_real_reality_of_minecraft_:blocks/topazore",
+    "east": "the_real_reality_of_minecraft_:blocks/topazore",
+    "south": "the_real_reality_of_minecraft_:blocks/topazore",
+    "west": "the_real_reality_of_minecraft_:blocks/topazore",
+    "particle": "the_real_reality_of_minecraft_:blocks/topazore"
+  }
+}

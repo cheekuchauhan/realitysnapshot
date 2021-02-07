@@ -1,0 +1,23 @@
+{
+  "_fv": 15,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Water:<ENBT:number:waterLevel>%",
+          "color": {
+            "value": -13369345,
+            "falpha": 0.0
+          },
+          "name": "Water:<ENBT:number:waterLevel>%",
+          "x": 1,
+          "y": 2
+        }
+      }
+    ],
+    "baseTexture": ""
+  }
+}

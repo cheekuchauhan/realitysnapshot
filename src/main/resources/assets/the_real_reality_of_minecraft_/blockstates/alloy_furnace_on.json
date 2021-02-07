@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "the_real_reality_of_minecraft_:block/alloy_furnace_on"
+    },
+    "facing=east": {
+      "model": "the_real_reality_of_minecraft_:block/alloy_furnace_on",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "the_real_reality_of_minecraft_:block/alloy_furnace_on",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "the_real_reality_of_minecraft_:block/alloy_furnace_on",
+      "y": 270
+    }
+  }
+}

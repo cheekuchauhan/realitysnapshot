@@ -1,0 +1,42 @@
+{
+  "group": "the_real_reality_of_minecraft_",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "the_real_reality_of_minecraft_:zinc_nuggets"
+    },
+    "1": {
+      "item": "the_real_reality_of_minecraft_:zinc_nuggets"
+    },
+    "2": {
+      "item": "the_real_reality_of_minecraft_:zinc_nuggets"
+    },
+    "3": {
+      "item": "the_real_reality_of_minecraft_:zinc_nuggets"
+    },
+    "4": {
+      "item": "the_real_reality_of_minecraft_:zinc_nuggets"
+    },
+    "5": {
+      "item": "the_real_reality_of_minecraft_:zinc_nuggets"
+    },
+    "6": {
+      "item": "the_real_reality_of_minecraft_:zinc_nuggets"
+    },
+    "7": {
+      "item": "the_real_reality_of_minecraft_:zinc_nuggets"
+    },
+    "8": {
+      "item": "the_real_reality_of_minecraft_:zinc_nuggets"
+    }
+  },
+  "result": {
+    "item": "the_real_reality_of_minecraft_:zinc_ingot",
+    "count": 1
+  }
+}

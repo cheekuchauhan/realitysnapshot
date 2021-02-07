@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_real_reality_of_minecraft_:blocks/silverore",
+    "up": "the_real_reality_of_minecraft_:blocks/silverore",
+    "north": "the_real_reality_of_minecraft_:blocks/silverore",
+    "east": "the_real_reality_of_minecraft_:blocks/silverore",
+    "south": "the_real_reality_of_minecraft_:blocks/silverore",
+    "west": "the_real_reality_of_minecraft_:blocks/silverore",
+    "particle": "the_real_reality_of_minecraft_:blocks/silverore"
+  }
+}
