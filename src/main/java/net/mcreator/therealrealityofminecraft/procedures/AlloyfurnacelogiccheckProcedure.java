@@ -40,7 +40,7 @@ public class AlloyfurnacelogiccheckProcedure extends TheRealRealityOfMinecraftMo
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		IWorld world = (IWorld) dependencies.get("world");
-		if (((new Object() {
+		if ((((new Object() {
 			public int getAmount(int sltid) {
 				if (entity instanceof ServerPlayerEntity) {
 					Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -55,9 +55,30 @@ public class AlloyfurnacelogiccheckProcedure extends TheRealRealityOfMinecraftMo
 				}
 				return 0;
 			}
-		}.getAmount((int) (0))) > 0)) {
+		}.getAmount((int) (0))) > 0) && ((new Object() {
+			public int getAmount(int sltid) {
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+							if (stack != null)
+								return stack.getCount();
+						}
+					}
+				}
+				return 0;
+			}
+		}.getAmount((int) (1))) > 0))) {
 			TheRealRealityOfMinecraftModVariables.WorldVariables.get(world).alloyfurnacelogic = (boolean) (true);
 			TheRealRealityOfMinecraftModVariables.WorldVariables.get(world).syncData(world);
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				$_dependencies.put("world", world);
+				AlloyFurnaceOnUpdateTickProcedure.executeProcedure($_dependencies);
+			}
 		} else {
 			TheRealRealityOfMinecraftModVariables.WorldVariables.get(world).alloyfurnacelogic = (boolean) (false);
 			TheRealRealityOfMinecraftModVariables.WorldVariables.get(world).syncData(world);
